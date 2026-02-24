@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>JatimFoods - Login</title>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="wireframe">
+      <div class="group-wrapper">
+        <div class="group">
+          <div class="rectangle-wrapper">
+            <div class="rectangle"></div>
+          </div>
+          <div class="div">
+            <header class="group-15">
+              <div class="group-16">
+                <h1 class="text-wrapper-10">SELAMAT DATANG DI JATIMFOODS</h1>
+              </div>
+            </header>
+            <section class="group-17">
+              <div class="group-18"></div>
+              <div class="group-19">
+                <p class="p">JELAJAHI RASA, TANPA BATAS KOTA</p>
+              </div>
+              <div class="group-20" role="img" aria-label="JatimFoods Logo"></div>
+              <div class="group-21" role="img" aria-label="Decorative Vector"></div>
+            </section>
+            <form class="auto-flex" method="post" action="#" novalidate>
+              <div class="group-5">
+                <label for="username" class="group-6">
+                  <span class="text-wrapper-5">SILAHKAN MASUKAN NAMA ANDA</span>
+                </label>
+                <div class="group-7">
+                  <span class="text-wrapper-6" aria-hidden="true">:</span>
+                </div>
+                <input
+                  type="text"
+                  id="username"
+                  name="username"
+                  class="group-8"
+                  required
+                  aria-required="true"
+                  autocomplete="username"
+                />
+                <div class="group-9" aria-hidden="true"></div>
+              </div>
+              <div class="group-5">
+                <label for="password" class="group-10">
+                  <span class="text-wrapper-7">SILAHKAN MASUKAN PASSWORD</span>
+                </label>
+                <div class="group-11">
+                  <span class="text-wrapper-6" aria-hidden="true">:</span>
+                </div>
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  class="group-12"
+                  required
+                  aria-required="true"
+                  autocomplete="current-password"
+                />
+                <div class="group-13" aria-hidden="true"></div>
+              </div>
+            </form>
+            <div class="group-14">
+              <div class="rectangle-2"></div>
+              <label for="email" class="text-wrapper-8"></label>
+              <span class="text-wrapper-9" aria-hidden="true">:</span>
+              <img class="vector" src="image copy.png" alt="" role="presentation" />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="email-input"
+                required
+                aria-required="true"
+                autocomplete="email"
+              />
+            </div>
+            <nav class="group-2">
+              <a href="#forgot-password" class="div-wrapper">
+                <span class="text-wrapper">Lupa Password?</span>
+              </a>
+              <button type="submit" class="group-3">
+                <img class="img" src="rectangle 8.png" alt="" role="presentation" />
+                <a href><span class="text-wrapper-2">BERGABUNG</span></a>
+              </button>
+              <div class="group-4">
+                <p class="text-wrapper-3">Belum Punya Akun?</p>
+                <a href="#register" class="text-wrapper-4">Register</a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
